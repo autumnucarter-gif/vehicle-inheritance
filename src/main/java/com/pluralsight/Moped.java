@@ -12,5 +12,6 @@ public class Moped extends Vehicle {
     }
     public void ride() {
         System.out.println("Currently riding the moped! ");
+
     }
 }
