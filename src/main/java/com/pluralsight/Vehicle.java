@@ -55,5 +55,16 @@ public class Vehicle {
     public void setCargoCapacity(int cargoCapacity) {
         this.cargoCapacity = cargoCapacity;
     }
-
+    public void startEngine() {
+        System.out.println("Engine started ");
+    }
+    public void stopEngine() {
+        System.out.println("Engine stoped ");
+    }
+    public void accelerate() {
+        System.out.println("Speeding up.");
+    }
+    public void brake() {
+        System.out.println("Slowing down.");
+    }
 }
